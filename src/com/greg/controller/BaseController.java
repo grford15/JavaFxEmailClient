@@ -5,8 +5,8 @@ import com.greg.view.ViewFactory;
 
 public abstract class BaseController {
 
-    private EmailManager emailManager;
-    private ViewFactory viewFactory;
+    protected EmailManager emailManager;
+    protected ViewFactory viewFactory;
     private String fxmlFile;
 
     public BaseController(EmailManager emailManager, ViewFactory viewFactory, String fxmlFile) {

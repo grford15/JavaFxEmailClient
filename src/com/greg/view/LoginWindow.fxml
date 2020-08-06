@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.AnchorPane?>
 <AnchorPane prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.greg.controller.LoginWindowController">
+            xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <Button fx:id="errorLabel" layoutX="202.0" layoutY="269.0" mnemonicParsing="false" onAction="#loginButtonAction"
                 prefHeight="39.0" prefWidth="97.0" text="Login"/>
